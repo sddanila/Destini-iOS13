@@ -26,8 +26,6 @@ class ViewController: UIViewController {
         let userChoice = sender.titleLabel!.text!
         storyBrain.nextStory(userChoice)
         self.updateUI()
-//        var questionNumber = storyBrain.checkChoice()
-
     }
     
     @objc func updateUI() {

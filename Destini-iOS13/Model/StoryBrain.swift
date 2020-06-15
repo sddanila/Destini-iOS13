@@ -45,7 +45,6 @@ struct StoryBrain {
     var storyNumber = 0
     
     mutating func nextStory(_ userChoice: String) {
-        
         if (storyNumber == stories.count - 1) {
             print("Finished")
             storyNumber = 0
